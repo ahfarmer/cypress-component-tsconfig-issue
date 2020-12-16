@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "jsx": "preserve",
+    "target": "es2019",
+    "module": "ESNext",
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "baseUrl": ".",
+    "typeRoots": ["./node_modules/@types"],
+    "allowJs": true,
+    "experimentalDecorators": true,
+    "noErrorTruncation": true,
+    "paths": {
+      "*": ["*", "./node_modules/*"]
+    }
+  },
+  "include": ["./cypress/component/*"],
+  "exclude": [
+    "node_modules"
+  ]
+}
